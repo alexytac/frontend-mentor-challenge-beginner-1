@@ -36,7 +36,7 @@ header {
 }
 
 header #header-logo {
-    position: relative;
+    width: 10em;
 }
 
 header nav {
