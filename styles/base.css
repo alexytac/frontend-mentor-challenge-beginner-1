@@ -1,21 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
-@import url('https://fonts.googleapis.com/css?family=Raleway:700');
-
 html,
 body {
     min-height: 100%;
+    padding: 4px;
     font-family: 'Open Sans', sans-serif;
 }
 
 body {
     margin: 0 auto;
     padding: 0;
-/*    background-image: url(../images/bg-intro-desktop.svg);*/
+    background-image: url(../images/bg-intro-mobile.svg);
+    background-size: contain;
+    background-size: 65%;
     background-repeat: no-repeat;
     background-color: white;
-    background-position: top left;
+    background-position: top right;
     display: grid;
     width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 ul {
@@ -25,34 +30,60 @@ ul {
 
 a {
     text-decoration: none;
-/*    color: #fff; temporary*/
+    color: #fff;
 }
 
+.highlight {
+    background-color: #06d89b;
+    padding: 8px 35px;
+    border-radius: 4px;
+}
+
+/* HEADER STYLES */
 header {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    position: relative;
+    padding-top: 1em;
+    padding-bottom: 5em;
     width: 100%;
 }
 
-header #header-logo {
-    width: 10em;
+header .header-logo #brand-logo {
+    width: 7em;
 }
 
-header nav {
+header .header-nav {
+    flex-basis: 50%;
+    margin: 0 1em;
+}
+
+header .header-nav ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
 }
 
+/* MAIN STYLES */
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+main .intro-container {
+    text-align: center;
+}
+
+main .intro-container .intro {
+    font-size: 40px;
 }
 
 main .intro-container #intro-image {
-    width: 100%
+    width: 60%
 }
 
 /* FOOTER STYLES */
