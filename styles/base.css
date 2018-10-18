@@ -20,7 +20,7 @@ body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-weight: 700px;
 }
 
 ul {
@@ -34,8 +34,7 @@ a {
 }
 
 .highlight {
-    background-color: #06d89b;
-    padding: 8px 35px;
+    background-color: #00da9c;
     border-radius: 4px;
 }
 
@@ -66,6 +65,10 @@ header .header-nav ul {
     flex-direction: row;
 }
 
+header .header-nav .sign-up {
+    padding: 8px 35px;
+}
+
 /* MAIN STYLES */
 main {
     display: flex;
@@ -78,12 +81,73 @@ main .intro-container {
     text-align: center;
 }
 
-main .intro-container .intro {
-    font-size: 40px;
-}
-
 main .intro-container #intro-image {
     width: 60%
+}
+
+main .intro-container section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+main .intro-container .intro {
+    font-size: 39px;
+}
+
+main .intro-container .sub-intro {
+    font-size: 19px;
+}
+
+main .intro-container .get-started {
+    margin: 0 auto;
+    padding: 20px 15px;
+    width: 70%;
+    box-shadow: 6px 6px #f2f1f6;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+main .feature-container {
+    text-align: center;
+}
+
+main .feature-container section {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+main .feature-container .feature-intro {
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
+main .feature-container .feature-sub-intro {
+    font-size: 19px;
+}
+
+main .feature-container .feature {
+   margin-left: 130px;
+   margin-right: 130px;
+}
+
+main .feature-container .feature .feature-icon #platform-icon {
+    width: 70%;
+}
+
+main .feature-container .feature .feature-icon #security-icon {
+    width: 58%;
+}
+
+main .feature-container .feature .feature-icon #collaboration-icon {
+    width: 70%;
+}
+
+main .feature-container .feature span {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 /* FOOTER STYLES */
