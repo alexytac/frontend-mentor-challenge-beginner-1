@@ -131,6 +131,8 @@ main .feature-container .feature-sub-intro {
 
 main .feature-container .feature {
     margin-top: 5em;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 main .feature-container .feature .feature-icon {
