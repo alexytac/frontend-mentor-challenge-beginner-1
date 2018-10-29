@@ -167,11 +167,12 @@ main .integration-apps-container .integration-sub-intro {
 }
 
 main .integration-apps-container .cards {
-    margin: 30px 30px;
+/*    margin: 30px 30px;*/
 }
 
 main .integration-apps-container .app-card {
     width: 240px;
+    margin: 30px auto;
     box-sizing: border-box;
 }
 
