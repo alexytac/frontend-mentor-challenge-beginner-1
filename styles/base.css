@@ -48,13 +48,14 @@ header {
     width: 100%;
 }
 
-header .header-logo #brand-logo {
-    width: 7em;
+header .header-logo {
+    margin: auto 1em;
+    box-sizing: border-box;
 }
 
 header .header-nav {
     flex-basis: 50%;
-    margin: 0 1em;
+    margin: auto 1em;
 }
 
 header .header-nav ul {
@@ -71,7 +72,8 @@ header .header-nav .sign-up {
 /* MAIN STYLES */
 .intro-container,
 .feature-container,
-.integration-apps-container {
+.integration-apps-container,
+.get-started-container {
     padding-top: 5em;
     padding-bottom: 5em;
     text-align: center;
@@ -180,12 +182,11 @@ main .integration-apps-container .app-card .card-header {
     display: flex;
     align-items: center;
     height: 120px;
-    border: 1px solid;
+    border: 1px solid #f2f1f6;
+    box-shadow: 1px 0px 6px 3px #f2f1f6;
 }
 
 main .integration-apps-container .app-card .card-header img {
-    max-width:100%;
-    max-height:100%;
     margin: 0 auto;
     width: 70%;
     height: auto;
@@ -193,7 +194,34 @@ main .integration-apps-container .app-card .card-header img {
 
 main .integration-apps-container .app-card .card-content {
     height: 200px;
-    border: 1px solid;
+    border: 1px solid #f2f1f6;
+    box-shadow: 1px 3px 6px 3px #f2f1f6;
+}
+
+main .get-started-container section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+main .get-started-container .get-started-intro {
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+main .get-started-container .get-started-sub-intro {
+    font-size: 19px;
+}
+
+main .get-started-container .get-started {
+    margin: 0 auto;
+    padding: 13px 12px;
+    width: 70%;
+    box-shadow: 6px 6px #f2f1f6;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 /* FOOTER STYLES */
@@ -202,6 +230,11 @@ footer {
     justify-content: space-between;
     flex-direction: column;
     position: relative;
+    background-color: #070439;
+}
+
+footer span, footer h1, footer p {
+    color: #fff;
 }
 
 footer #footer-logo {
