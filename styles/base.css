@@ -30,12 +30,28 @@ ul {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: hsl(106, 0%, 98%);
 }
 
 .highlight {
-    background-color: #00da9c;
+    background-color: hsl(163, 95%, 43%);
     border-radius: 4px;
+}
+
+.fc-blue {
+    color: hsl(243, 87%, 12%);
+}
+
+.fc-white {
+    color: hsl(106, 0%, 98%);
+}
+
+.fc-lightgray {
+    color: hsl(0, 0%, 50%);
+}
+
+.fc-darkgray {
+    color: hsl(0, 0%, 17%);
 }
 
 /* HEADER STYLES */
@@ -121,8 +137,8 @@ main .feature-container section {
 }
 
 main .feature-container .feature-intro {
-   margin-left: 50px;
-   margin-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 main .feature-container .feature-sub-intro {
@@ -162,16 +178,12 @@ main .integration-apps-container section {
 }
 
 main .integration-apps-container .integration-intro {
-   margin-left: 30px;
-   margin-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 main .integration-apps-container .integration-sub-intro {
     font-size: 19px;
-}
-
-main .integration-apps-container .cards {
-/*    margin: 30px 30px;*/
 }
 
 main .integration-apps-container .app-card {
@@ -211,8 +223,8 @@ main .get-started-container section {
 }
 
 main .get-started-container .get-started-intro {
-   margin-left: 30px;
-   margin-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 main .get-started-container .get-started-sub-intro {
@@ -274,7 +286,6 @@ footer .subscription-form a {
 
 footer .contacts li {
     display: flex;
-/*    justify-content: space-between;*/
     align-items: center;
     margin: 10px 0;
 }
@@ -292,7 +303,7 @@ footer .links li:not(:first-child) {
 }
 
 footer span, footer h1, footer p {
-    color: #fff;
+    color: hsl(106, 0%, 98%);
 }
 
 footer #footer-logo {
